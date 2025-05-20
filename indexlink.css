@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+    background-color: aquamarine;
+}
+
+.dis{
+    display: block;
+    background-color: bisque;
+    width: 100px;
+    padding: 10px 20px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 5%;
+}
+.dis button{
+    display: inline-block;
+    cursor: pointer;
+}
+a{
+    display:block;
+    background-color: rgb(177, 109, 109);
+}
+
+
+
+
+.a{bleed: "plan the week ahead";}
+.b{bleed:"prepare for meetings";}
+.c{
+    flex:" groecry shopping";}
+.d{flex:"workout session";}
+.e{flex:"clean the house";}
+.f{flex:"family movie night";}
+.g{flex:"gardening and relaxation";}
